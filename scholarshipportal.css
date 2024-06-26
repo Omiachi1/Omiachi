@@ -1,0 +1,274 @@
+body {
+    background-color: rgb(233, 244, 233);
+    margin: auto;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 70px;
+    width: 1000px;
+    height: 100px;
+    display: flex;
+}
+
+header img {
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 80px;
+    width: 80px;
+}
+
+.header-links {
+    width: 400px;
+    display: flex;
+    margin-left: 560px;
+    margin-right: 40px;
+}
+
+.header-links a {
+    font-size: large;
+    justify-content: space-between;
+    margin-left: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border: solid 2px rgb(25, 160, 106);
+    border-radius: 5px;
+    background-color: rgb(25, 160, 106);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 7px 10px;
+}
+
+
+main {
+    width: 1000px;
+    margin-right: 50px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.main-intro {
+    background-image: url(Backgroundimage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 250px;
+}
+
+.main-intro h4 {
+    margin-top: -13px;
+}
+
+.main-intro a {
+    text-decoration: none;
+    border: solid 2px rgb(25, 160, 106);
+    border-radius: 5px;
+    background-color: rgb(25, 160, 106);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: rgb(255, 255, 255);
+    margin-right: 30px;   
+}
+
+.main-intro-p {
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+.main-sections-intro {
+    height: 220px;
+    background-color: rgb(25, 160, 106);
+    margin-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.main-sections-intro h3 {
+    margin-top: 30px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.main-sections-intro p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    margin-top: -10px;
+    font-size: 10px;
+}
+
+.main-sections-contents{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.main-sections-contents img{
+    height: 130px;
+    width: 200px;
+    border-radius: 4px;
+    margin: auto;
+}
+
+.main-sections-contents p {
+    font-weight: lighter;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.undergraduate {
+    margin-top: -100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    width: 200px;
+    height: 260px;
+    padding: 10px;
+
+}
+
+.undergraduate-text{
+    margin-top: -15px;
+   
+}
+
+.graduate {
+    margin-top: -100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    width: 200px;
+    height: 260px;
+    padding: 10px;
+}
+
+.masters {
+    margin-top: -100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    width: 200px;
+    height: 260px;
+    padding: 10px;
+}
+
+.masters-text{
+    margin-top: -12px;
+}
+
+.undergraduate .graduate .masters {
+    margin-top: -60px;
+}
+
+.main-activities {
+    background-color: rgb(255, 255, 255);
+    height: 900px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+.main-activities h3 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+.main-activities p {
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.main-activities img {
+    width: 920px;
+}
+
+footer{
+    height: 200px;
+    width: 1000px;
+    margin-left:  70px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    background-image: url(Backgroundimage.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer h3 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+footer p {
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+}
+
+footer a {
+    font-size: large;
+    justify-content: space-between;
+    margin-left: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border: solid 2px rgb(25, 160, 106);
+    border-radius: 5px;
+    background-color: rgb(25, 160, 106);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+}
+
+a:hover {
+    border: solid 1px rgb(25, 160, 106);
+    background-color: rgb(25, 160, 106);
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
