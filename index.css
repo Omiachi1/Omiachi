@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .wrapper {
+    width: 800px;
+    box-shadow: hsl(0, 0%, 80%) 0 0 8px;
+    border-top: 5px solid rgb(177, 100, 198);
+    border-bottom: 5px solid rgb(177, 100, 198);
+    border-left: 5px solid rgb(177, 100, 198);
+    border-right: 5px solid rgb(177, 100, 198);
+    border-radius: 7px;
+    border-radius: 5px;
+    margin: 1.5em auto;
+    clear: both;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .form-wrapper {
+    margin: 1.5em 1em;
+    clear: both;
+  }
+  #course-form {
+    clear: both;
+  }
+  .form-wrapper .col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5em 0;
+    gap: 1.5em;
+  }
+  .form-wrapper .col input {
+    border: 2px solid rgb(177, 100, 198);
+    border-radius: 3px;
+    padding: 12px;
+    width: 100%;
+  }
+  .form-wrapper .col select {
+    background-color: #7d3192;
+    border: none;
+    border-radius: 3px;
+    padding: 12px;
+  }
+  #add-btn {
+    padding: 8px;
+    background: #7d3192;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 20px;
+    display: inline-block;
+    margin-bottom: 1.5em;
+  }
+  .fa-plus,
+  .fa-times {
+    color: #fff;
+  }
+  .remove-course {
+    background: #7d3192;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+  }
+  #submit-btn {
+    background: #7d3192;
+    padding: 8px 40px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 0.5em;
+    margin-left: 600px;
+    
+    text-transform: uppercase;
+  }
+  #header {
+    margin: auto;
+    padding-left: 30px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+  }
+  #gp {
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    padding-right: 20px;
+  }
+  footer {
+    background: #7d3192;
+    margin: 0px 10px 5px 10px;
+    padding: 5px;
+    color: white;
+    margin-top: 5px;
+    font-size: 0.8rem;
+    font-family: Helvetica;
+    font-weight: 300;
+    text-align: center;
+    
+    
+  }
+  @media (max-width: 768px) {
+    .wrapper {
+      width: fit-content;
+      margin: 1.5em 0.5em;
+    }
+    .form-wrapper .col {
+      gap: 0.5em;
+    }
+  }
